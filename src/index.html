@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./sass/style.scss">
+</head>
+<body>
+    <header class="header">
+        <nav class="container nav">
+            <div class="nav__logo">
+                <img src="./images/logo.svg" alt="snap" />
+            </div>
+            <div class="nav--icon">
+                <img src="./images/icon-menu.svg" alt="icon" class="humber-icon">
+            </div>
+            <div class="list">
+                    <img src="./images/icon-close-menu.svg" alt="icon" class="close-icon">
+                <ul class="list__list">
+                    <li>
+                        <a href="#" class="list__list--link ">Features<img src="./images/icon-arrow-down.svg" alt="icon" /></a>
+                        <ul class="sub-list hide">
+                            <li><a href="#" class="sub-list--link"><img src="./images/icon-todo.svg" />Todo List</a></li>
+                            <li><a href="#" class="sub-list--link"><img src="./images/icon-calendar.svg" />Calender</a></li>
+                            <li><a href="#" class="sub-list--link"><img src="./images/icon-reminders.svg" />Reminders</a></li>
+                            <li><a href="#" class="sub-list--link last"><img src="./images/icon-planning.svg" />Planning</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#" class="list__list--link">Company<img src="./images/icon-arrow-down.svg" alt="icon" /></a>
+                        <ul class="sub-list hide last">
+                            <li><a href="#" class="sub-list--link">History</a></li>
+                            <li><a href="#" class="sub-list--link">Our Team</a></li>
+                            <li><a href="#" class="sub-list--link last">Blog</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#" class="list__list--link">Careers</a>
+                    </li>
+                    <li>
+                        <a href="#" class="list__list--link">About</a>
+                    </li>
+                    <div class="cta">
+                        <li><a href="#"class="cta--link">Login</a></li>
+                        <li><a href="#"class="cta--link cta-register">Register</a></li>
+                    </div>
+                </ul>
+            </div>
+        </nav>
+        <main class="hero container">
+            <div class="hero--content">
+                <h1><span>Make</span> remote work</h1>
+                <p>Get your team in sync, no matter your location. Streamline processes, create team rituals, and watch productivity soar.</p>
+                <button>Learn More</button>
+                <div class="hero--logos">
+                    <img src="./images/client-databiz.svg" alt="databiz" />
+                    <img src="./images/client-audiophile.svg" alt="audiophile" />
+                    <img src="./images/client-meet.svg" alt="meet" />
+                    <img src="./images/client-maker.svg" alt="maker" />
+                </div>
+            </div>
+            <div class="hero--image">
+                <picture>
+                    <source media="(min-width:700px)" srcset="./images/image-hero-desktop.png">
+                    <img src="./images/image-hero-mobile.png" 
+                    alt="Make Remote Work">
+                </picture>
+              
+            </div>
+        </main>
+    </header>
+
+    <script src="./app.js"></script>
+</body>
+</html>
